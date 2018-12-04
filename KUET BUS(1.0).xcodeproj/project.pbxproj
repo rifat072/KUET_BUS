@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3522B87521B58D7200327239 /* NearbyKhulnaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3522B87421B58D7200327239 /* NearbyKhulnaCollectionViewCell.swift */; };
+		3522B87721B58E8800327239 /* NearByKhulnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3522B87621B58E8800327239 /* NearByKhulnaViewController.swift */; };
+		35838C3F21A460B40001E465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35838C3E21A460B40001E465 /* AppDelegate.swift */; };
+		35838C4121A460B40001E465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35838C4021A460B40001E465 /* ViewController.swift */; };
+		35838C4421A460B40001E465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35838C4221A460B40001E465 /* Main.storyboard */; };
+		35838C4721A460B40001E465 /* KUET_BUS_1_0_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35838C4521A460B40001E465 /* KUET_BUS_1_0_.xcdatamodeld */; };
+		35838C4921A460B40001E465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35838C4821A460B40001E465 /* Assets.xcassets */; };
+		35838C4C21A460B40001E465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35838C4A21A460B40001E465 /* LaunchScreen.storyboard */; };
+		35838C5721A460B40001E465 /* KUET_BUS_1_0_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35838C5621A460B40001E465 /* KUET_BUS_1_0_Tests.swift */; };
+		35838C6221A460B40001E465 /* KUET_BUS_1_0_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35838C6121A460B40001E465 /* KUET_BUS_1_0_UITests.swift */; };
+		4017A49E21ABF6BC005B9FEB /* NearByKuetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4017A49D21ABF6BC005B9FEB /* NearByKuetViewController.swift */; };
+		4017A4A021ABF74E005B9FEB /* BusScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4017A49F21ABF74E005B9FEB /* BusScheduleViewController.swift */; };
+		4017A4A221ABFC71005B9FEB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4017A4A121ABFC71005B9FEB /* TableViewCell.swift */; };
+		5003099A21B3DD920007CFFB /* ScheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003099921B3DD920007CFFB /* ScheduleCollectionViewCell.swift */; };
+		50B3AF3A21B53CC300B2EAE2 /* NearByKuetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3AF3921B53CC300B2EAE2 /* NearByKuetCollectionViewCell.swift */; };
+		50FEEA0E21AFF45B005976AF /* ScheduleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FEEA0D21AFF45A005976AF /* ScheduleDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35838C5321A460B40001E465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35838C3321A460B30001E465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35838C3A21A460B40001E465;
+			remoteInfo = "KUET BUS(1.0)";
+		};
+		35838C5E21A460B40001E465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35838C3321A460B30001E465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35838C3A21A460B40001E465;
+			remoteInfo = "KUET BUS(1.0)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3522B87421B58D7200327239 /* NearbyKhulnaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyKhulnaCollectionViewCell.swift; sourceTree = "<group>"; };
+		3522B87621B58E8800327239 /* NearByKhulnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByKhulnaViewController.swift; sourceTree = "<group>"; };
+		35838C3B21A460B40001E465 /* KUET BUS(1.0).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KUET BUS(1.0).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35838C3E21A460B40001E465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35838C4021A460B40001E465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35838C4321A460B40001E465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35838C4621A460B40001E465 /* KUET_BUS_1_0_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KUET_BUS_1_0_.xcdatamodel; sourceTree = "<group>"; };
+		35838C4821A460B40001E465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35838C4B21A460B40001E465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35838C4D21A460B40001E465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35838C5221A460B40001E465 /* KUET BUS(1.0)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KUET BUS(1.0)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35838C5621A460B40001E465 /* KUET_BUS_1_0_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUET_BUS_1_0_Tests.swift; sourceTree = "<group>"; };
+		35838C5821A460B40001E465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35838C5D21A460B40001E465 /* KUET BUS(1.0)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KUET BUS(1.0)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35838C6121A460B40001E465 /* KUET_BUS_1_0_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUET_BUS_1_0_UITests.swift; sourceTree = "<group>"; };
+		35838C6321A460B40001E465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4017A49D21ABF6BC005B9FEB /* NearByKuetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByKuetViewController.swift; sourceTree = "<group>"; };
+		4017A49F21ABF74E005B9FEB /* BusScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusScheduleViewController.swift; sourceTree = "<group>"; };
+		4017A4A121ABFC71005B9FEB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5003099921B3DD920007CFFB /* ScheduleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCollectionViewCell.swift; sourceTree = "<group>"; };
+		50B3AF3921B53CC300B2EAE2 /* NearByKuetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByKuetCollectionViewCell.swift; sourceTree = "<group>"; };
+		50FEEA0D21AFF45A005976AF /* ScheduleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35838C3821A460B40001E465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35838C4F21A460B40001E465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35838C5A21A460B40001E465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35838C3221A460B30001E465 = {
+			isa = PBXGroup;
+			children = (
+				35838C3D21A460B40001E465 /* KUET BUS(1.0) */,
+				35838C5521A460B40001E465 /* KUET BUS(1.0)Tests */,
+				35838C6021A460B40001E465 /* KUET BUS(1.0)UITests */,
+				35838C3C21A460B40001E465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35838C3C21A460B40001E465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35838C3B21A460B40001E465 /* KUET BUS(1.0).app */,
+				35838C5221A460B40001E465 /* KUET BUS(1.0)Tests.xctest */,
+				35838C5D21A460B40001E465 /* KUET BUS(1.0)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35838C3D21A460B40001E465 /* KUET BUS(1.0) */ = {
+			isa = PBXGroup;
+			children = (
+				35838C3E21A460B40001E465 /* AppDelegate.swift */,
+				35838C4021A460B40001E465 /* ViewController.swift */,
+				35838C4221A460B40001E465 /* Main.storyboard */,
+				3522B87621B58E8800327239 /* NearByKhulnaViewController.swift */,
+				3522B87421B58D7200327239 /* NearbyKhulnaCollectionViewCell.swift */,
+				50B3AF3921B53CC300B2EAE2 /* NearByKuetCollectionViewCell.swift */,
+				50FEEA0D21AFF45A005976AF /* ScheduleDetailsViewController.swift */,
+				5003099921B3DD920007CFFB /* ScheduleCollectionViewCell.swift */,
+				4017A4A121ABFC71005B9FEB /* TableViewCell.swift */,
+				35838C4821A460B40001E465 /* Assets.xcassets */,
+				35838C4A21A460B40001E465 /* LaunchScreen.storyboard */,
+				35838C4D21A460B40001E465 /* Info.plist */,
+				35838C4521A460B40001E465 /* KUET_BUS_1_0_.xcdatamodeld */,
+				4017A49D21ABF6BC005B9FEB /* NearByKuetViewController.swift */,
+				4017A49F21ABF74E005B9FEB /* BusScheduleViewController.swift */,
+			);
+			path = "KUET BUS(1.0)";
+			sourceTree = "<group>";
+		};
+		35838C5521A460B40001E465 /* KUET BUS(1.0)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35838C5621A460B40001E465 /* KUET_BUS_1_0_Tests.swift */,
+				35838C5821A460B40001E465 /* Info.plist */,
+			);
+			path = "KUET BUS(1.0)Tests";
+			sourceTree = "<group>";
+		};
+		35838C6021A460B40001E465 /* KUET BUS(1.0)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				35838C6121A460B40001E465 /* KUET_BUS_1_0_UITests.swift */,
+				35838C6321A460B40001E465 /* Info.plist */,
+			);
+			path = "KUET BUS(1.0)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35838C3A21A460B40001E465 /* KUET BUS(1.0) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35838C6621A460B40001E465 /* Build configuration list for PBXNativeTarget "KUET BUS(1.0)" */;
+			buildPhases = (
+				35838C3721A460B40001E465 /* Sources */,
+				35838C3821A460B40001E465 /* Frameworks */,
+				35838C3921A460B40001E465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KUET BUS(1.0)";
+			productName = "KUET BUS(1.0)";
+			productReference = 35838C3B21A460B40001E465 /* KUET BUS(1.0).app */;
+			productType = "com.apple.product-type.application";
+		};
+		35838C5121A460B40001E465 /* KUET BUS(1.0)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35838C6921A460B40001E465 /* Build configuration list for PBXNativeTarget "KUET BUS(1.0)Tests" */;
+			buildPhases = (
+				35838C4E21A460B40001E465 /* Sources */,
+				35838C4F21A460B40001E465 /* Frameworks */,
+				35838C5021A460B40001E465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35838C5421A460B40001E465 /* PBXTargetDependency */,
+			);
+			name = "KUET BUS(1.0)Tests";
+			productName = "KUET BUS(1.0)Tests";
+			productReference = 35838C5221A460B40001E465 /* KUET BUS(1.0)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35838C5C21A460B40001E465 /* KUET BUS(1.0)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35838C6C21A460B40001E465 /* Build configuration list for PBXNativeTarget "KUET BUS(1.0)UITests" */;
+			buildPhases = (
+				35838C5921A460B40001E465 /* Sources */,
+				35838C5A21A460B40001E465 /* Frameworks */,
+				35838C5B21A460B40001E465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35838C5F21A460B40001E465 /* PBXTargetDependency */,
+			);
+			name = "KUET BUS(1.0)UITests";
+			productName = "KUET BUS(1.0)UITests";
+			productReference = 35838C5D21A460B40001E465 /* KUET BUS(1.0)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35838C3321A460B30001E465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Rifat;
+				TargetAttributes = {
+					35838C3A21A460B40001E465 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					35838C5121A460B40001E465 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35838C3A21A460B40001E465;
+					};
+					35838C5C21A460B40001E465 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35838C3A21A460B40001E465;
+					};
+				};
+			};
+			buildConfigurationList = 35838C3621A460B30001E465 /* Build configuration list for PBXProject "KUET BUS(1.0)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35838C3221A460B30001E465;
+			productRefGroup = 35838C3C21A460B40001E465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35838C3A21A460B40001E465 /* KUET BUS(1.0) */,
+				35838C5121A460B40001E465 /* KUET BUS(1.0)Tests */,
+				35838C5C21A460B40001E465 /* KUET BUS(1.0)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35838C3921A460B40001E465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35838C4C21A460B40001E465 /* LaunchScreen.storyboard in Resources */,
+				35838C4921A460B40001E465 /* Assets.xcassets in Resources */,
+				35838C4421A460B40001E465 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35838C5021A460B40001E465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35838C5B21A460B40001E465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35838C3721A460B40001E465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35838C4121A460B40001E465 /* ViewController.swift in Sources */,
+				3522B87721B58E8800327239 /* NearByKhulnaViewController.swift in Sources */,
+				50FEEA0E21AFF45B005976AF /* ScheduleDetailsViewController.swift in Sources */,
+				35838C3F21A460B40001E465 /* AppDelegate.swift in Sources */,
+				4017A49E21ABF6BC005B9FEB /* NearByKuetViewController.swift in Sources */,
+				4017A4A221ABFC71005B9FEB /* TableViewCell.swift in Sources */,
+				4017A4A021ABF74E005B9FEB /* BusScheduleViewController.swift in Sources */,
+				3522B87521B58D7200327239 /* NearbyKhulnaCollectionViewCell.swift in Sources */,
+				50B3AF3A21B53CC300B2EAE2 /* NearByKuetCollectionViewCell.swift in Sources */,
+				5003099A21B3DD920007CFFB /* ScheduleCollectionViewCell.swift in Sources */,
+				35838C4721A460B40001E465 /* KUET_BUS_1_0_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35838C4E21A460B40001E465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35838C5721A460B40001E465 /* KUET_BUS_1_0_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35838C5921A460B40001E465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35838C6221A460B40001E465 /* KUET_BUS_1_0_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35838C5421A460B40001E465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35838C3A21A460B40001E465 /* KUET BUS(1.0) */;
+			targetProxy = 35838C5321A460B40001E465 /* PBXContainerItemProxy */;
+		};
+		35838C5F21A460B40001E465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35838C3A21A460B40001E465 /* KUET BUS(1.0) */;
+			targetProxy = 35838C5E21A460B40001E465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35838C4221A460B40001E465 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35838C4321A460B40001E465 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35838C4A21A460B40001E465 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35838C4B21A460B40001E465 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35838C6421A460B40001E465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35838C6521A460B40001E465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35838C6721A460B40001E465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BV298V8XW;
+				INFOPLIST_FILE = "KUET BUS(1.0)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rifat.KUET-BUS-1-0-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35838C6821A460B40001E465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BV298V8XW;
+				INFOPLIST_FILE = "KUET BUS(1.0)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rifat.KUET-BUS-1-0-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35838C6A21A460B40001E465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KUET BUS(1.0)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rifat.KUET-BUS-1-0-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KUET BUS(1.0).app/KUET BUS(1.0)";
+			};
+			name = Debug;
+		};
+		35838C6B21A460B40001E465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KUET BUS(1.0)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rifat.KUET-BUS-1-0-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KUET BUS(1.0).app/KUET BUS(1.0)";
+			};
+			name = Release;
+		};
+		35838C6D21A460B40001E465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KUET BUS(1.0)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rifat.KUET-BUS-1-0-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KUET BUS(1.0)";
+			};
+			name = Debug;
+		};
+		35838C6E21A460B40001E465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KUET BUS(1.0)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rifat.KUET-BUS-1-0-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KUET BUS(1.0)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35838C3621A460B30001E465 /* Build configuration list for PBXProject "KUET BUS(1.0)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35838C6421A460B40001E465 /* Debug */,
+				35838C6521A460B40001E465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35838C6621A460B40001E465 /* Build configuration list for PBXNativeTarget "KUET BUS(1.0)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35838C6721A460B40001E465 /* Debug */,
+				35838C6821A460B40001E465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35838C6921A460B40001E465 /* Build configuration list for PBXNativeTarget "KUET BUS(1.0)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35838C6A21A460B40001E465 /* Debug */,
+				35838C6B21A460B40001E465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35838C6C21A460B40001E465 /* Build configuration list for PBXNativeTarget "KUET BUS(1.0)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35838C6D21A460B40001E465 /* Debug */,
+				35838C6E21A460B40001E465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35838C4521A460B40001E465 /* KUET_BUS_1_0_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35838C4621A460B40001E465 /* KUET_BUS_1_0_.xcdatamodel */,
+			);
+			currentVersion = 35838C4621A460B40001E465 /* KUET_BUS_1_0_.xcdatamodel */;
+			path = KUET_BUS_1_0_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 35838C3321A460B30001E465 /* Project object */;
+}
